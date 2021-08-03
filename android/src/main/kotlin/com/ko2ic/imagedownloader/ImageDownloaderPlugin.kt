@@ -34,7 +34,7 @@ class ImageDownloaderPlugin(
         private val registrar: Registrar,
         private val channel: MethodChannel,
         private val permissionListener: ImageDownloaderPermissionListener
-) : MethodCallHandler {
+) : FlutterPlugin  {
     companion object {
         @JvmStatic
         fun registerWith(registrar: Registrar) {
