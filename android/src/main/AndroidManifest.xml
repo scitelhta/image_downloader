@@ -1,3 +1,4 @@
 <manifest
         package="com.ko2ic.imagedownloader">
+        <meta-data android:name="flutterEmbedding" android:value="2"/>
 </manifest>
